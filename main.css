@@ -1,0 +1,59 @@
+/*navbar style*/
+#navbar {
+    background-color: lightblue;
+    height: 100%;
+    margin-top: 0px;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 5;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+}
+
+.nav-link {
+    font: black;
+    border: gray, solid, .5;
+}
+
+.nav-item:hover {
+    background-color: aquamarine;
+}
+
+/*header style*/
+#leaf {
+    height: 5em;
+    float: left;
+    padding-right: 2em;
+    padding-left: 165px;
+}
+
+header {
+    background-image: linear-gradient(white, lightblue);
+    margin-bottom: -.5em;
+    padding-bottom: 1em;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 3em;
+}
+
+/*main text area styles*/
+.all-seasons {
+    float: right;
+    text-align: center;
+    padding-top: 2em;
+}
+
+#winter {
+    margin-top: 10em;
+}
